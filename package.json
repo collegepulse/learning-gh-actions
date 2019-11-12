@@ -1,0 +1,27 @@
+{
+  "name": "learning-gh-actions",
+  "version": "0.0.0",
+  "description": "Learning GitHub Actions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --module commonjs --outDir dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petermikitsh/learning-gh-actions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petermikitsh/learning-gh-actions/issues"
+  },
+  "homepage": "https://github.com/petermikitsh/learning-gh-actions#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-typescript": "^7.7.2",
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "typescript": "^3.7.2"
+  }
+}
